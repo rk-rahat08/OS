@@ -1,0 +1,12 @@
+{
+  "min_cylinder": 0,
+  "max_cylinder": 199,
+  "initial_head": 100,
+  "initial_direction": "up",
+  "window_size": 20,
+  "n_traces_per_type": 60,
+  "windows_per_trace": 10,
+  "random_seed": 307,
+  "test_size": 0.25,
+  "shift_windows_per_phase": 30
+}

@@ -1,0 +1,82 @@
+{
+  "accuracy": 0.8577777777777778,
+  "mean_confidence": 0.936532448826611,
+  "confidence_when_correct": 0.9446771060187492,
+  "confidence_when_incorrect": 0.887409985136527,
+  "mean_selected_movement": 186.22444444444446,
+  "mean_oracle_movement": 182.02,
+  "mean_regret": 4.204444444444444,
+  "multiclass_brier": 0.26320341834578376,
+  "classification_report": {
+    "FCFS": {
+      "precision": 0.8888888888888888,
+      "recall": 0.9863013698630136,
+      "f1-score": 0.935064935064935,
+      "support": 73.0
+    },
+    "SCAN": {
+      "precision": 0.5542168674698795,
+      "recall": 0.7076923076923077,
+      "f1-score": 0.6216216216216216,
+      "support": 65.0
+    },
+    "C-SCAN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "SSTF": {
+      "precision": 0.9370629370629371,
+      "recall": 0.8589743589743589,
+      "f1-score": 0.8963210702341137,
+      "support": 312.0
+    },
+    "accuracy": 0.8577777777777778,
+    "macro avg": {
+      "precision": 0.5950421733554263,
+      "recall": 0.6382420091324201,
+      "f1-score": 0.6132519067301676,
+      "support": 450.0
+    },
+    "weighted avg": {
+      "precision": 0.8739480480845944,
+      "recall": 0.8577777777777778,
+      "f1-score": 0.8629273768404202,
+      "support": 450.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      72,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      46,
+      0,
+      18
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      36,
+      0,
+      268
+    ]
+  ],
+  "labels": [
+    "FCFS",
+    "SCAN",
+    "C-SCAN",
+    "SSTF"
+  ],
+  "expected_calibration_error": 0.13973314790553348
+}
